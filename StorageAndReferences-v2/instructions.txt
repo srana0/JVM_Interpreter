@@ -1,0 +1,5 @@
+Running the program with 
+
+./a.out  -e DriverClass.bvmclass -c DriverClass.constantpool 0
+
+Should generate  the output stored in the output.txt
