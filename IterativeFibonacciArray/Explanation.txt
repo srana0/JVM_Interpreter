@@ -1,0 +1,21 @@
+Attached find the bytecode that implements looking up the n'th value of the fibonacci sequence, while preserving results of computation in an array.
+This version of the program returns 0 as the zeroeth element of the sequence
+This version SHOULD NOT be executed with negative number as an input
+
+Note that constantpool has multiple arguments... 
+
+Execution instructions
+Input:
+./a.out -e IterativeArrayFibonacciArray.bvmclass -c IterativeArrayFibonacciArray.constantpool 5
+Output:
+5
+
+Input:
+./a.out -e IterativeArrayFibonacciArray.bvmclass -c IterativeArrayFibonacciArray.constantpool 6
+Output:
+8
+
+Input:
+./a.out -e IterativeArrayFibonacciArray.bvmclass -c IterativeArrayFibonacciArray.constantpool 0
+Output:
+0
