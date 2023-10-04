@@ -23,15 +23,15 @@ your constant pool – just the constant pool file will be changed so that objec
 To work with objects we need to add support for additional instructions. Below is the extended instruction set that you must support.
 
 Expanded Instruction Set
-• new
-• newarray (note only int and reference types are supported)
-• anewarray
-• getfield
-• putfield
-• aload
-• astore
-• dup
-• aconst_null
-• aastore
-• aaload
+* new
+* newarray (note only int and reference types are supported)
+* anewarray
+* getfield
+* putfield
+* aload
+* astore
+* dup
+* aconst_null
+* aastore
+* aaload
 While not expected, students are free to submit their own developed tests with their submissions. 
